@@ -1,8 +1,22 @@
-# code-policeman
+# algorithm
 
-## 背景
-现有的git代码行数统计只能统计增改，无法对增改进行分类，所以开发 code-policeman 对不同 commit tag 的代码增改进行统计
-
-## 目标
-- [ ] 对代码进行行数统计
-- [ ] 对行数统计结果进行 commit tag 分类
+## goal
+- [ ] 算法 & 数据结构
+  - [ ] B-Tree（go impl）
+  - [ ] B+Tree（go impl）
+  - [ ] 快排
+  - [ ] 堆排序
+  - [ ] 归并排序
+  - [ ] topk
+      - [ ] 快排-快速选择（第N个元素）
+      - [ ] 堆排序实现也可以
+  - [ ] LRU
+  - [ ] 一致性哈希
+      - [ ] 环形哈希
+      - [ ] maglev 哈希
+  - [ ] 负载均衡
+      - [ ] 随机 & 加权随机
+      - [ ] 轮询
+  - [ ] 跳表
+  - [ ] trie tree（前缀树）
+      - [ ] radix tree（前缀压缩树）

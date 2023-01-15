@@ -16,7 +16,7 @@ jobs:
         go: [1.17, 1.18, 1.19]
     name: build & test
     runs-on: ubuntu-latest
-    services:
+#    services:
 #      etcd:
 #        image: gcr.io/etcd-development/etcd:v3.5.0
 #        ports:
